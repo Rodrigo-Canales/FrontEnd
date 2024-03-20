@@ -31,4 +31,10 @@ function calcularEstadoPeso(pesoIdeal){
     }
     document.getElementById("cnt_estado").innerHTML= "Estado: " + estado + "."
     document.getElementById("cnt_imagen").innerHTML= "<img src=img/" + imagen + ">"
+    calcularDiferencia(pesoActual, pesoIdeal)
+}
+
+function calcularDiferencia(pesoActual, pesoIdeal){
+    var diferencia = Math.abs(pesoActual - pesoIdeal)
+    document.getElementById("cnt_diferencia").innerHTML= "La diferencia de peso con su peso ideal es de: " + diferencia + " kilos."
 }
