@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Peso Ideal</title>
         <script src="js/funciones.js"></script>
-        <script src="css/estilo.css"></script>
+        <link rel="stylesheet" href="css/estilo.css"></link>
     </head>
     <body>
         <div>
-            <h1>Peso ideal</h1>
+            <h1 id="titulo-principal">Calcular peso ideal</h1>
             <hr>
         </div>
         <div>
             <!--Formulario-->
-            <form>
-                <table>
+            <form id="formulario">
+                <table id="tabla">
                     <tr>
                         <td>Edad: </td>
                         <td> <input type="number" id="txt_edad"> </tr>
@@ -30,10 +30,14 @@
                 </table>
             </form>
             <!--Resultado-->
-            <div id="cnt_peso_ideal"></div>
-            <div id="cnt_estado"></div> 
-            <div id="cnt_diferencia"></div>
-            <div id="cnt_imagen"></div> 
+            <div id="resultado">
+                <ul>
+                    <li id="cnt_peso_ideal"></li>
+                    <li id="cnt_estado"></li> 
+                    <li id="cnt_diferencia"></li>
+                </ul>
+                <div id="cnt_imagen"></div>
+            </div>
         </div>
     </body>
 </html>

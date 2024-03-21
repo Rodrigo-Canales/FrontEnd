@@ -1,0 +1,36 @@
+/* Estilo a nivel de etiqueta HTML*/
+body {
+    background-color:cadetblue;
+    text-align: center;
+}
+
+#titulo-principal {
+    color: white;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+#formulario{
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+}
+
+#resultado{
+    background-color: blue;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+#tabla{
+    background-color: blue;
+    margin: auto;
+}
+
+td{
+    color: white;
+}
+
